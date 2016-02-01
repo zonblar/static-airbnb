@@ -12,3 +12,51 @@
 @import "components/*";
 @import "pages/*";
 @import "vendor/*";
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.padded {
+  padding: 100px 0;
+}
+.wrapper-grey {
+  background: #F4F4F4;
+}
+.features{
+  padding-left: 20px;
+  padding-right: 20px;
+
+  img{
+  width: 100px;
+  height: 100px;
+  }
+  h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+
+  p {
+  font-size: 15px;
+  font-weight: lighter;
+  }
+}
+
+#map
+{
+  margin-top: 100px;
+}
+
+.image-circle{
+  width: 100px;
+  border-radius: 50%;
+}

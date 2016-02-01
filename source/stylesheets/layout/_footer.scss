@@ -1,0 +1,17 @@
+/* Footer design */
+.footer{
+  padding: 40px 0px;
+  background: #333333;
+  color: #CACACA;
+  li {
+    padding-right: 30px;
+  }
+
+  i{
+    color: #CACACA;
+    &:hover{
+      color: yellow;
+      opacity: 0.8;
+    }
+  }
+}
